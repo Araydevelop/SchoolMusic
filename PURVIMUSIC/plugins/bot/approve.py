@@ -66,8 +66,8 @@ APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
 # List of random photo links
 random_photo_links = [
-    "https://telegra.ph/file/d4b82210a6c2aa6f5c327.jpg",
-    "https://telegra.ph/file/646053f894fde8da84a87.jpg",
+    "https://graph.org/file/0dfe6cf8e152111e7984f.jpg",
+    "https://graph.org/file/2bb97b0f93ba41b7754c6.jpg",
     "https://telegra.ph/file/303ea976ff9594b61c419.jpg",
     # Add more links as needed
 ]
@@ -104,7 +104,7 @@ async def autoapprove(client: app, message: ChatJoinRequest):
                 [
                     [
                         InlineKeyboardButton(
-                            " ๏ ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ ๏ ", url=f"https://t.me/Heeer_music_bot?startgroup=true")
+                            " ✨ ᴀᴅᴅ ᴍᴇ  ✨ ", url=f"https://t.me/Hexa_Musicbot?startgroup=true")
                     ]
                 ]
             ),
