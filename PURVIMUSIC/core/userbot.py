@@ -73,7 +73,7 @@ class Userbot(Client):
             await self.two.start()
             try:
                 await self.two.join_chat("HEXA_EMPIRE")
-                await self.one.join_chat("O_P_Hacker")
+                await self.one.join_chat("Hexa_association")
             except:
                 pass
             assistants.append(2)
