@@ -72,7 +72,7 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("Hacker_fed_apeal")
+                await self.two.join_chat("HEXA_EMPIRE")
                 await self.one.join_chat("O_P_Hacker")
             except:
                 pass
